@@ -12,6 +12,6 @@ module.exports = {
      */
 
     run: async (client, interaction) => {
-        interaction.reply({ content: `💚 Pong! ${client.ws.ping}ms` })
+        interaction.reply({ content: `💚 Pong! ${client.ws.ping}ms` });
     }
 }
